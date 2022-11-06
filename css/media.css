@@ -1,0 +1,46 @@
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: block;
+    }
+}
+
+@media (max-width: 1300px) {
+    .website-name {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    
+    .ubuntu-30-12 {
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .service-active {
+        font-size: 50px;
+    }
+    .menu-service-item {
+        font-size: 20px;
+    }
+
+    .website-btn {
+        font-size: 20px;
+    }
+
+    .link-footer {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .website-name {
+        font-size: 15px;
+    }
+    .website-description {
+        font-size: 10px;
+        max-width: 80%;
+    }
+}

@@ -1,0 +1,436 @@
+@import url(bootstrap-reboot.css);
+
+/* 
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Ubuntu', sans-serif;
+*/
+
+/* SAD */
+
+.none {
+    display: none;
+}
+
+body {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.2;
+    background-color: #2C2C2C;
+}
+
+header, section {
+    margin-bottom: 150px;
+}
+
+/* FONTS */
+
+.ubuntu-30-12 {
+    font-size: 30px;
+    font-family: "Ubuntu";
+    line-height: 1.2;
+}
+
+.ubuntu-20-12 {
+    font-size: 20px;
+    font-family: "Ubuntu";
+    line-height: 1.2;
+}
+
+.ubuntu-15-12 {
+    font-size: 15px;
+    font-family: "Ubuntu";
+    line-height: 1.2;
+}
+
+.ubuntu-10-12 {
+    font-size: 10px;
+    font-family: "Ubuntu";
+    line-height: 1.2;
+}
+
+.name {
+    font-size: 60px;
+    font-family: "PlayfairDisplaySC";
+    color: rgb(180, 180, 180);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* HEADER */ 
+
+.logo {
+    font-size: 50px;
+    font-family: "PlayfairDisplaySC";
+    line-height: 1.2;
+    color: rgb(182, 155, 103);
+    text-decoration: overline;
+    padding-top: 55px;
+}
+
+.design_team {
+    color: rgb(180, 180, 180);
+}
+
+.header-main {
+    padding: 0;
+    padding-left: 40px;
+}
+
+.img-bulb {
+    width: 200px;
+}
+
+.menu-open {
+    display: block;
+    background-image: url(../img/icons/list.png);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+.menu-open:hover {
+    background-image: url(../img/icons/list-hover.png);
+}
+
+.radial-text {
+    background: rgb(209,181,130);
+    background: radial-gradient(circle, rgba(209,181,130,1) 8%, rgba(88,86,83,1) 34%, rgba(58,58,58,1) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.scroll-text {
+    font-size: 20px;
+    font-family: "Ubuntu";
+    color: rgb(69, 69, 69);
+    margin: 5px;
+}
+
+.scroll-img {
+    display: block;
+    width: 30px;
+    margin: 0 auto;
+}
+
+/* MENU */
+
+.close-menu {
+    display: block;
+    background-image: url(../img/icons/menu-close.png);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: -87px;
+}
+
+.close-menu:hover {
+    background-image: url(../img/icons/menu-close-hover.png);
+}
+
+.menu-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    color: rgb(180, 180, 180);
+    padding: 15px 0;
+}
+
+.red {
+    color: red;
+}
+
+.active {
+    color: rgb(182, 155, 103);
+    text-decoration: overline;
+}
+
+.menu-link-item {
+    color: rgb(105, 86, 49);
+    padding: 15px 0;
+}
+
+.menu-link-white {
+    color: rgb(180, 180, 180);
+    padding: 15px 0;
+}
+
+.form-control {
+    height: 40px;
+    background-color: #2C2C2C;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid #454545;
+    color: rgb(69, 69, 69);
+    font-size: 30px;
+}
+
+/* SIGN UP FORM */
+
+.modal-header {
+    margin: 0;
+    display: block;
+}
+
+.modal-content {
+    border: 1px solid #b4b4b4;
+    background-color: #2C2C2C;
+    border-radius: 0%;
+    color: rgb(180, 180, 180);;
+}
+
+.form-using {
+    color: rgb(180, 180, 180);
+}
+
+.facebook {
+    color: rgb(59, 89, 152);
+    border: 2px solid rgb(59, 89, 152);
+    cursor: pointer;
+}
+
+.facebook:hover {
+    color: rgb(48, 48, 48);
+    background-color: rgb(59, 89, 152);
+}
+
+.google {
+    color: rgb(221, 75, 57);
+    border: 2px solid rgb(221, 75, 57);
+    cursor: pointer;
+}
+
+.google:hover {
+    color: rgb(48, 48, 48);
+    background-color: rgb(221, 75, 57);
+}
+
+.twitter {
+    color: rgb(29, 161, 242);
+    border: 2px solid rgb(29, 161, 242);
+    cursor: pointer;
+}
+
+.twitter:hover {
+    color: rgb(48, 48, 48);
+    background-color: rgb(29, 161, 242);
+}
+
+.form-sign-up {
+    background-color: #2C2C2C;
+    border: none;
+    font-size: 20px;
+    border: 2px solid #b4b4b4;
+}
+
+.my-btn {
+    color: rgb(48, 48, 48);
+    text-align: center;
+    background-color: #b69b67;
+    border: 2px solid #b69b67;
+}
+
+.my-btn:hover {
+    color: #b69b67;
+    background-color: #2C2C2C;
+    border: 2px solid #b69b67;
+}
+
+/* MAIN */
+
+/* SERVICES */
+.menu-service-item {
+    color: rgb(180, 180, 180);
+    padding: 15px 0;
+}
+
+.service-active {
+    font-size: 40px;
+    font-family: "Ubuntu";
+    color: rgb(182, 155, 103);
+    line-height: 1.2;
+    text-decoration: overline;
+    border-bottom: 1px solid #454545;
+}
+
+.services-main-text {
+    margin-top: 20px;
+    font-family: 'Ubuntu', serif;
+    font-size: 20px;
+    color: rgb(180, 180, 180);
+    line-height: 1.2;
+    max-width: 380px;
+}
+
+.span-color-text {
+    color: rgb(182, 155, 103);
+}
+
+/* PORTFOLIO */
+
+
+.portfolio-btn {
+    background-color: #2C2C2C;
+    color: rgb(180, 180, 180);
+}
+
+.portfolio-btn:hover {
+    border: 1px solid #b59c6b;
+    color: #b59c6b;
+    background-color: #2C2C2C;
+}
+
+.categories-list {
+    max-width: 140px;
+    min-width: 100px;
+    background-color: #2C2C2C;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.dropdown-item {
+    color: rgb(180, 180, 180);
+}
+
+.dropdown-item:hover {
+    color:#b59c6b ;
+    background-color: #2C2C2C;
+} 
+
+.website-card {
+    background-size: contain;
+    position: relative;
+    background-color: #b59c6b00;
+}
+
+.website-card:hover {
+    background-color: #b59c6b12;
+}
+
+.website-card:hover .website-text {
+    display: none;
+}
+.website-card:hover .web-btn-pos {
+    display: flex;
+    justify-content: center;
+}
+
+.website-img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.website-text {
+    margin-right: 0;
+    margin-left: auto;
+    background-color: #b69b67;
+}
+
+.website-line {
+    width: 100%;
+    height: 1px;
+    margin-left: -50px;
+    background-color: #2C2C2C;
+    margin-bottom: 30px;
+}
+
+.web-btn-pos {
+    padding: 90px;
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.website-btn {
+    background-color: #b59c6b;
+    border: none;
+    border-radius: 0%;
+    font-size: 25px;
+    font-family: "Ubuntu";
+    color: rgb(48, 48, 48);
+}
+
+.website-name {
+    font-size: 25px;
+    max-width: 100%;
+}
+
+.website-description {
+    font-size: 15px;
+    max-width: 80%;
+}
+
+.page-link {
+    background-color: #2C2C2C;
+    color: #454545;
+    border: none;
+    font-size: 15px;
+}
+
+.active-page {
+    color: #b59c6b;
+}
+
+.page-btn {
+    color: #b4b4b4;
+}
+
+/* CONTACTS US */
+
+.feeback-text {
+    font-size: 25px;
+    color: #b4b4b4;
+}
+ 
+.feedback-line {
+    width: 100%;
+    height: 1px;
+    background-color: #b59c6b;
+}
+
+.user {
+    font-size: 25px;
+    color: #b59c6b;
+}
+
+/* CONTACTS */
+
+.contacts-name {
+    font-size: 30px;
+    color: #b59c6b;
+    text-decoration: overline;
+    line-height: 1.5;
+}
+.link {
+    text-decoration: none;
+    color: #b4b4b4;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+.footer-name {
+    background: rgb(209,181,130);
+    background: radial-gradient(circle, rgba(209,181,130,1) 8%, rgba(88,86,83,1) 34%, rgba(58,58,58,1) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.list-group-item {
+    background-color: #2C2C2C;
+    color: #b4b4b4;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+}

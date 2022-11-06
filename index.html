@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#000000">
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h1 class="text-center text-uppercase logo">Undercover</h1>
+                    <p class="text-center text-uppercase design_team text-end ubuntu-30-12"> Design team</p>
+                </div>
+            </div>
+
+            <!-- HEADER MAIN -->
+            
+            <div class="row justify-content-center my-3" id="header-main">
+                <div class="col-12 d-flex mb-3 header-main">
+                    <img src="img/header/image_2022-11-02_14-48-09.png" class="img-bulb mx-auto" alt="bulb">
+                    <a href="#" class="menu-open align-self-start my-4" id="menu-open"></a>
+                </div>
+                <div class="col-12">
+                    <p class="text-uppercase text-center radial-text">our design’s so wanted that we have to hide</p>
+                </div>
+                <div class="col-12 my-4">
+                    <p class="text-center scroll-text text-uppercase">scroll down for more</p>
+                    <a href="#footer" class="scroll-down">
+                        <img src="img/icons/down.png" class="scroll-img" alt="#">
+                    </a>
+                </div>
+            </div>
+
+            <!-- MENU -->
+
+            <div class="row justify-content-center my-5 menu none" id="menu">
+                <div class="col-12 p-0 mb-5">
+                    <h3 class="name text-center text-uppercase">Menu</h3>
+                    <a href="#" class="close-menu float-right" id="menu-close">
+                    </a>
+                </div>
+
+                <div class="col-3 col-xs-6 mt-3">
+                    <ul class="menu-nav">
+                        <li class="menu-item text-uppercase ubuntu-30-12" id="menu-item">main</li>
+                        <li class="menu-item text-uppercase ubuntu-30-12" id="menu-item">services</li>
+                        <li class="menu-item text-uppercase ubuntu-30-12 active" id="menu-item">portfolio</li>
+                        <li class="menu-item text-uppercase ubuntu-30-12" id="menu-item">blog</li>
+                        <li class="menu-item text-uppercase ubuntu-30-12" id="menu-item">pricings</li>
+                        <li class="menu-item text-uppercase ubuntu-30-12" id="menu-item">feedbacks</li>
+                        <li class="menu-item text-uppercase ubuntu-30-12" id="menu-item">contacts</li>
+                    </ul>
+                </div>
+
+                <div class="col-3 col-xs-6 mt-3">
+                    <ul class="menu-nav">
+                        <li class="menu-link-item text-uppercase ubuntu-30-12" data-bs-toggle="modal" data-bs-target="#sign-up">Sign up</li>
+                        <li class="menu-link-item text-uppercase ubuntu-30-12" data-bs-toggle="modal" data-bs-target="#sign-in">Sign in</li>
+                        <li class="menu-link-white text-uppercase ubuntu-30-12">send message</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-10">
+                    <form class="d-flex">
+                        <input class="form-control my-3 text-center" type="search" placeholder="SEARCH" aria-label="Search">
+                    </form>
+                    <img src="img/header/menu.png" class="img-fluid" alt="">
+                </div>
+
+                <!-- SIGN UP -->
+
+                
+            </div>
+        </div>
+        <div class="modal fade" id="sign-up" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="form-name text-uppercase text-center name">sign up</h3>
+                    </div>
+
+                    <div class="modal-body">
+                        <p class="text-uppercase text-center ubuntu-30-12 form-using">sign up using</p>
+
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 col-xs-6 py-2">
+                                <p class="text-center py-2 ubuntu-30-12 facebook">facebook</p>
+                            </div>
+                            <div class="col-md-4 col-xs-6 py-2">
+                                <p class="text-center py-2 ubuntu-30-12 google">google+</p>
+                            </div>
+                            <div class="col-md-4 col-xs-6 py-2">
+                                <p class="text-center py-2 ubuntu-30-12 twitter">twitter</p>
+                            </div>
+
+                            <p class="text-center ubuntu-20-12 text-uppercase">or enter following information</p>
+
+                            <form action="#" class="d-flex flex-column">
+                                <input type="text" class="form-sign-up container-fluid p-3 mb-3" placeholder="Name">
+                                <input type="text" class="form-sign-up container-fluid p-3 mb-3" placeholder="Email">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-12">
+                                        <input type="text" class="form-sign-up container-fluid p-3 mb-3" placeholder="Password">
+                                    </div>
+                                    <div class="col-lg-4 col-md-12">
+                                        <input type="submit" class="container-fluid p-2 mb-3 my-btn" value="SIGN UP">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="sign-in" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="form-name text-uppercase text-center name">sign in</h3>
+                    </div>
+
+                    <div class="modal-body">
+                        <p class="text-uppercase text-center ubuntu-30-12 form-using">sign in using</p>
+
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 col-xs-6 py-2">
+                                <p class="text-center py-2 ubuntu-30-12 facebook">facebook</p>
+                            </div>
+                            <div class="col-md-4 col-xs-6 py-2">
+                                <p class="text-center py-2 ubuntu-30-12 google">google+</p>
+                            </div>
+                            <div class="col-md-4 col-xs-6 py-2">
+                                <p class="text-center py-2 ubuntu-30-12 twitter">twitter</p>
+                            </div>
+
+                            <p class="text-center ubuntu-20-12 text-uppercase">or your account</p>
+
+                            <form action="#" class="d-flex flex-row flex-wrap justify-content-center">
+                                <input type="text" class="form-sign-up container-fluid p-3 mb-3" placeholder="Name">
+                                <input type="text" class="form-sign-up container-fluid p-3 mb-3" placeholder="Email">
+                                <input type="submit" class="p-2 px-4 mb-3 my-btn" value="SIGN UP">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="service" id="service">
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-12 mb-5">
+                        <h3 class="name text-center text-uppercase">services</h3>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+                        <ul class="menu-nav">
+                            <li class="menu-service-item text-uppercase ubuntu-30-12 service-active">Web Design</li>
+                            <li class="menu-service-item text-uppercase ubuntu-30-12">Logo Design</li>
+                            <li class="menu-service-item text-uppercase ubuntu-30-12">Branding</li>
+                            <li class="menu-service-item text-uppercase ubuntu-30-12">Ui</li>
+                            <li class="menu-service-item text-uppercase ubuntu-30-12">Photography</li>
+                            <li class="menu-service-item text-uppercase ubuntu-30-12">Graphic Design</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <p class="services-main-text">Web design is our passion. Our team likes to create unique web pages for our clients. Understanding users is key point to good interaction with him through web design. <span class="span-color-text">See more</span> or <span class="span-color-text">portfolio</span></p>
+                        <img src="img/service/web-design.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 mb-3">
+                        <h3 class="text-uppercase text-center name">Portfolio</h3>
+                    </div>
+
+                    <div class="col-6 text-center mb-5">
+                        <div class="dropdown d-flex justify-content-center">
+                            <button class="btn btn-secondary portfolio-btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                              All categories
+                            </button>
+                            <ul class="dropdown-menu categories-list text-center" aria-labelledby="dropdownMenu2">
+                              <li><button class="dropdown-item" type="button">Web Design</button></li>
+                              <li><button class="dropdown-item" type="button">Logo Design</button></li>
+                              <li><button class="dropdown-item" type="button">Branding</button></li>
+                              <li><button class="dropdown-item" type="button">UI</button></li>
+                              <li><button class="dropdown-item" type="button">Photography</button></li>
+                              <li><button class="dropdown-item" type="button">Graphic Design</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="website-card">
+                            <img src="img/portfolio/1.jpg" alt="#" class="website-img">
+
+                            <div class="web-btn-pos">
+                                <button type="button" class="btn btn-warning website-btn text-uppercase">see full project</button>
+                            </div>
+
+                            <div class="website-text p-4 col-6">
+                                <h3 class="text-uppercase website-name">Subsence monochrome</h3>
+                                <div class="website-line"></div>
+                                <p class="website-description">Web design in monochromatic colors for SUBSENCE agency.</p>
+                                <p class="ubuntu-15-12 text-end fst-italic">web design</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="website-card">
+                            <img src="img/portfolio/2.jpg" alt="#" class="website-img">
+
+                            <div class="web-btn-pos">
+                                <button type="button" class="btn btn-warning website-btn text-uppercase">see full project</button>
+                            </div>
+
+                            <div class="website-text p-4 col-6">
+                                <h3 class="text-uppercase website-name">fixedgear shop photoshoot</h3>
+                                <div class="website-line"></div>
+                                <p class="website-description">Web design in monochromatic colors for SUBSENCE agency.</p>
+                                <p class="ubuntu-15-12 text-end fst-italic">web design</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="website-card">
+                            <img src="img/portfolio/3.jpg" alt="#" class="website-img">
+
+                            <div class="web-btn-pos">
+                                <button type="button" class="btn btn-warning website-btn text-uppercase">see full project</button>
+                            </div>
+
+                            <div class="website-text p-4 col-6">
+                                <h3 class="text-uppercase website-name">fixedgear shop photoshoot</h3>
+                                <div class="website-line"></div>
+                                <p class="website-description">Photoshoot for the annual issue of the fixed gear</p>
+                                <p class="ubuntu-15-12 text-end fst-italic">photography</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="website-card">
+                            <img src="img/portfolio/4.jpg" alt="#" class="website-img">
+
+                            <div class="web-btn-pos">
+                                <button type="button" class="btn btn-warning website-btn text-uppercase">see full project</button>
+                            </div>
+
+                            <div class="website-text p-4 col-6">
+                                <h3 class="text-uppercase website-name">editor’s personal page</h3>
+                                <div class="website-line"></div>
+                                <p class="website-description">Web page created for Ryan Fields a famous US editor.</p>
+                                <p class="ubuntu-15-12 text-end fst-italic">web design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <nav aria-label="Page navigation example ms-auto">
+                            <ul class="pagination">
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link page-btn" href="#">Prev</a></li>
+                              <li class="page-item"><a class="page-link active-page" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link page-btn" href="#">Next</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-us" id="contact-us">
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-lg-6 col-md-12">
+                        <h3 class="name text-uppercase text-center mb-4">feedbacks</h3>
+                        <div class="d-flex flex-column mb-5">
+                            <div class="feedback" id="feedback">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/contact-us/1.jpg" alt="#">
+                                    <p class="feeback-text float-right mx-4">
+                                        Working with thise guys was an astonishing expirience for me. I was pleased with theyre work.
+                                    </p>
+                                </div>
+                                <div class="feedback-line"></div>
+                                
+                                <p class="user text-end text-uppercase">sarah robinson</p>
+                            </div>  
+                        </div>
+
+                        <div class="d-flex flex-column mb-5">
+                            <div class="feedback">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/contact-us/2.jpg" alt="#">
+                                    <p class="feeback-text float-right mx-4">
+                                        At first I was not sure about this team but I decided to give them a chance. And they didn’t let me down. Good job, guys.
+                                    </p>
+                                </div>
+                                <div class="feedback-line"></div>
+                                
+                                <p class="user text-end text-uppercase">Nathan perish</p>
+                            </div>  
+                        </div>
+
+                        <div class="d-flex flex-column mb-5">
+                            <div class="feedback">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/contact-us/3.jpg" alt="#">
+                                    <p class="feeback-text float-right mx-4">
+                                        Working with thise guys was an astonishing expirience for me. I was pleased with theyre work.
+                                    </p>
+                                </div>
+                                <div class="feedback-line"></div>
+                                
+                                <p class="user text-end text-uppercase">Amy jones</p>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-md-12">
+                        <h3 class="name text-uppercase text-center mb-4">contacts us</h3>
+                        <form action="#" class="d-flex flex-row flex-wrap justify-content-center">
+                            <input type="text" class="form-sign-up container-fluid p-3 mb-3" placeholder="Name">
+                            <input type="text" class="form-sign-up container-fluid p-3 mb-3" placeholder="Email">
+
+                            <textarea name="message" id="#" cols="30" rows="10" class="form-sign-up container-fluid mb-3 p-3" placeholder="Your message"></textarea>
+
+                            <input type="submit" class="p-2 px-4 mb-3 my-btn" value="SIGN UP">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h3 class="name text-center text-uppercase mb-5">contacts</h3>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-md-6 col-sm-12 text-center mb-5">
+                        <h4 class="contacts-name text-uppercase">phone</h4>
+                        <a href="tel:+380347884556" class="link">(+380)34-788-45-56</a>
+                        <a href="tel:+380347884556" class="link">(+380)34-788-45-56</a>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12 text-center mb-5">
+                        <h4 class="contacts-name text-uppercase">email</h4>
+                        <a href="mailto:undercoverdesign@mail.com" class="link">undercoverdesign@mail.com</a>
+                        <a href="mailto:undercoversupport@mail.com" class="link">undercoversupport@mail.com</a>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12 text-center mb-5">
+                        <h4 class="contacts-name text-uppercase">adress</h4>
+                        <a href="#" class="link">Javastraat 43,</a>
+                        <a href="#" class="link">Amsterdam, netherlands</a>
+                    </div>
+                    <div class="col-md-5 col-sm-12 mt-5">
+                        <img src="img/contacts/fire.jpg" alt="#" class="container-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <h2 class="footer-name text-center text-uppercase">
+            this is the place where sparkles of idea turns into fire
+        </h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <ul class="list-group">
+                        <li class="list-group-item text-uppercase "><a class="link" href="#service">service</a></li>
+                        <li class="list-group-item text-uppercase "><a class="link" href="#portfolio">portfolio</a></li>
+                        <li class="list-group-item text-uppercase "><a class="link" href="#feedback">feedback</a></li>
+                        <li class="list-group-item text-uppercase "><a class="link" href="#contact-us">contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <ul class="list-group">
+                        <li class="list-group-item text-uppercase "><a class="link" href="contact">contact</a></li>
+                        <li class="list-group-item text-uppercase "><a class="link" href="#">facebook</a></li>
+                        <li class="list-group-item text-uppercase "><a class="link" href="#">linkedin</a></li>
+                        <li class="list-group-item text-uppercase "><a class="link" href="#">twitter</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <ul class="list-group">
+                        <li class="list-group-item text-uppercase "><a class="link" href="#">google</a></li>
+                        <li class="list-group-item text-uppercase "><a class="link" href="#" data-bs-toggle="modal" data-bs-target="#sign-up">sign up</a></li>
+                        <li class="list-group-item text-uppercase "><a class="link" href="#" data-bs-toggle="modal" data-bs-target="#sign-in">sign in</a></li>
+                        <li class="list-group-item text-uppercase "><a class="link" href="#">search</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-sm-12 mt-5">
+                    <img src="img/footer/footer.jpg" alt="#" class="container-fluid">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
